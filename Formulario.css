@@ -1,17 +1,14 @@
-/* Reset de estilos para garantir uma base consistente */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo geral do corpo do documento */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
 
-/* Estilo do contêiner principal */
 div {
     text-align: center;
     padding: 20px;
@@ -21,7 +18,6 @@ div {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo do formulário */
 form {
     width: 80%;
     max-width: 600px;
@@ -32,7 +28,6 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo dos campos do formulário */
 fieldset {
     margin-bottom: 20px;
 }
@@ -53,7 +48,6 @@ textarea {
     box-sizing: border-box;
 }
 
-/* Estilo dos botões */
 button {
     background-color: #4caf50;
     color: white;
@@ -68,13 +62,13 @@ button:hover {
     background-color: #45a049;
 }
 
-/* Estilo dos checkboxes e radios */
 input[type="checkbox"],
 input[type="radio"] {
     margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-/* Estilo do textarea */
 textarea {
     resize: vertical;
 }
